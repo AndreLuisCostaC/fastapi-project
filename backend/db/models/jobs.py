@@ -9,7 +9,7 @@ class Job(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
     company = Column(String, nullable=False)
-    companu_url = Column(String)
+    company_url = Column(String)
     location = Column(String, nullable=False)
     description = Column(String)
     date_posted = Column(Date)
